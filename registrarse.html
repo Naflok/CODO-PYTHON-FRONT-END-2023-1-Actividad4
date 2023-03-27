@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+<title>La cocina de Nico - Huevo frito</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="acercaDe.html">Acerca de</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registrarse.html">Registrarse</a>
+            <a href="sucursales.html">Sucursales</a>
+        </nav>
+        <h1>La cocina de Nico</h1>
+        </header>
+
+<h3>Formulario de Registro</h3>
+<form action="show_data.html" method="POST" target="_blank">
+    <label for="firstname">Nombre:</label>
+    <input size="30" type="Text" name="firstname" id="firstname" required placeholder="Ingrese su Nombre">
+    <br><br>
+    <label for="lasttname">Apellido:</label>
+    <input size="30" type="Text" name="lasttname" id="lasttname" required placeholder="Ingrese su Apellido">
+    <br><br>
+    <label for="dir">Direccion:</label>
+    <input size="30" type="Text" name="dir" id="dir" required  placeholder="Ingrese su dirección">
+    <br><br>
+    <label for="cp">Codigo Postal:</label>
+    <input size="30" type="number" name="cp" id="cp" placeholder="Ingrese su codigo postal">
+    <br><br>
+    <label for="fecha">Fecha de nacimiento</label>
+    <input size="30" type="date" name="fecha" id="fecha">
+    <br>
+    <h4>Genero</h4>
+    <input type="checkbox" name="opcion">Hombre    
+    <input type="checkbox" name="opcion">Mujer    
+    <input type="checkbox" name="opcion">Otro    
+    <br>
+    <h4>Estudios</h4>
+    <input type="radio" name="opcionradio" value="1">Primario
+    <input type="radio" name="opcionradio" value="2">Secundario
+    <input type="radio" name="opcionradio" value="3">Terciario
+    <input type="radio" name="opcionradio" value="4">Universitario
+    <input type="radio" name="opcionradio" value="5">Otro
+    <br>
+    <br>
+    <input type="reset" value="Borrar datos"><input type="submit" value="Enviar datos">
+    <br>
+    <br>
+</form>
+
+
+<footer>
+    <h2>Derechos reserbados @2023</h2>
+</footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+nav{
+    text-align: left;
+}
+a{  
+    background-color: gray;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px; 
+    color:white;    
+}
+h3{
+    text-decoration: none;
+    color:black;
+    text-decoration: none;
+    font-style: italic;
+}
+.myaSuc{
+
+        font-style: italic;
+        background-color: white;
+        text-decoration: none;
+        padding: 0px;
+        border-radius: 0px; 
+        color:green;  
+}
+.myaContact{
+
+    font-style: italic;
+    background-color: white;
+    text-decoration: none;
+    padding: 0px;
+    border-radius: 0px; 
+    color:green;  
+}
